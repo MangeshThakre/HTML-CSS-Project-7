@@ -6,7 +6,7 @@
 🙌 hey There I'm mangesh Thakre Wed Developer 
 ##  What I've learnd form this project 
  
- - Learned how to put inside to relative parent so that `postion:absolute` child will be relative to their parent
+ - Learned how to make parent relative so that `postion:absolute` child will be relative to their parent
  - learned about transition and applied on button
 
 > #### This project took 5 hour to complete, 
