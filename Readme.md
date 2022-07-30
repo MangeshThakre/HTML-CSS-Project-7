@@ -15,4 +15,3 @@
 
 ## Screenshort
 ![alt text](https://github.com/MangeshThakre/HTML-CSS-Project-7/blob/master/project-7.png?raw=true)
-![alt text](https://github.com/MangeshThakre/HTML-CSS-Project-7/blob/master/project-7.png?raw=true)
