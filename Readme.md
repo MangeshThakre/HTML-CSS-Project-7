@@ -3,7 +3,7 @@
 # Productt Home Page
 > HTML - CSS Project-7 
 
-🙌 hey There I'm mangesh Thakre Wed Developer 
+🙌 hey There I'm mangesh Thakre Web Developer 
 ##  What I've learnd form this project 
  
  - Learned how to make parent relative so that `postion:absolute` child will be relative to their parent
