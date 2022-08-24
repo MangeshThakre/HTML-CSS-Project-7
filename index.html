@@ -11,9 +11,12 @@
       href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins&display=swap"
       rel="stylesheet"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/index.css" />
     <title>HTML-CSS-Project-7</title>
   </head>
@@ -21,11 +24,11 @@
     * {
       font-family: Poppins;
     }
-    .left-section > h1{
-      font-family:   Fredoka, sans-serif;
+    .left-section > h1 {
+      font-family: Fredoka, sans-serif;
     }
   </style>
-  <body>
+  <body class="body">
     <nav>
       <img src="./images/logo.svg" alt="logo" />
       <div class="nav-items">
@@ -34,7 +37,10 @@
         <h5 class="nav-item">Price</h5>
         <h5 class="nav-item">About</h5>
       </div>
-      <img src="./images/actions.svg" alt="actions" />
+      <div class="buttoncontainer">
+        <div class="hamburger-menu"></div>
+      </div>
+      <img class="nav-right" src="./images/actions.svg" alt="actions" />
     </nav>
     <div class="intro-section">
       <div class="left-section">
@@ -93,4 +99,17 @@
       </div>
     </div>
   </body>
+  <script>
+    // const herocontainer = document.querySelector(".hero-container")
+    const body = document.querySelector(".body");
+    const sidebarMenu = document.querySelector(".nav-items");
+    const buttoncontainer = document.querySelector(".buttoncontainer");
+    const burgermenu = document.querySelector(".hamburger-menu");
+    buttoncontainer.addEventListener("click", (e) => {
+      burgermenu.classList.toggle("cross-menu");
+      sidebarMenu.classList.toggle("close");
+      body.classList.toggle("hide-scroll");
+      // herocontainer.classList.toggle("shadow")
+    });
+  </script>
 </html>
